@@ -8,12 +8,12 @@ repo = Repo(working_tree_dir)
 def gitActivities(repo):
     if len(repo.untracked_files):
         repo.git.add(A=True)
-        repo.git.commit('-m', 'initial commit')
+        repo.git.commit('-m', 'Update activityTracker')
         repo.git.push('origin', 'HEAD:refs/for/master')
 
 def alterFile(file):
     with open(file, "a") as f:
-        f.write("new line\n")
+        f.write("new cool line\n")
 
 
 alterFile(file)
