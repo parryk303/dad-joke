@@ -1,5 +1,5 @@
 #! /bin/sh
-npm run app.json
+python3 index.py
 git add .
 git commit -m 'Update jokes'
 git push origin master
