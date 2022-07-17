@@ -1,0 +1,2 @@
+{"success":true,"body":[{"_id":"60dd371fb3aa38bd4745e4e3","setup":"I found a parking lot with only two spaces","punchline":"It’s really a parking little.","type":"park","likes":[],"author":{"name":"unknown","id":null},"approved":true,"date":1618108661,"NSFW":false}]},
+{"success":true,"body":[{"_id":"60dd35e3a4a6f73db0f1846a","setup":"do you know how much of a virgin i am?","punchline":"even when I flip a coin it wouldn't give me head","type":"coin","likes":[],"author":{"name":"unknown","id":null},"approved":true,"date":1618108661,"NSFW":false}]},

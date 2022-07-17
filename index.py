@@ -1,22 +1,22 @@
-from git import Repo
+import requests
+
+url = "https://dad-jokes.p.rapidapi.com/random/joke"
+
+headers = {
+	"X-RapidAPI-Key": "5306d8a43emsh14d3563571f84a3p13fa78jsncf07f8fd46f6",
+	"X-RapidAPI-Host": "dad-jokes.p.rapidapi.com"
+}
+
+response = requests.request("GET", url, headers=headers)
 
 working_tree_dir = '/Users/louiseparry/Desktop/autoJoke/autoGit'
 file = "./activityTracker.js"
-repo = Repo(working_tree_dir)
 
-
-def gitActivities(repo):
-    if len(repo.untracked_files):
-        repo.git.add(A=True)
-        repo.git.commit('-m', 'Update activityTracker')
-        repo.git.push('origin', 'HEAD:refs/for/master')
+# joke="{\nsetup: {setup}\npunchline: {punchline}\n}\n".format(setup=response.text.setup, punchline=response.text.punchline)
+joke="{res},\n".format(res=response.text)
 
 def alterFile(file):
     with open(file, "a") as f:
-        f.write("new cool line\n")
-
+        f.write(joke)
 
 alterFile(file)
-
-
-gitActivities(repo)
