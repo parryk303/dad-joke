@@ -10,7 +10,7 @@ headers = {
 response = requests.request("GET", url, headers=headers)
 
 working_tree_dir = '/Users/louiseparry/Desktop/autoJoke/autoGit'
-file = "./activityTracker.js"
+file = "./jokes.txt"
 
 # joke="{\nsetup: {setup}\npunchline: {punchline}\n}\n".format(setup=response.text.setup, punchline=response.text.punchline)
 joke="{res},\n".format(res=response.text)
