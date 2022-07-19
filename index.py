@@ -9,7 +9,7 @@ headers = {
 
 response = requests.request("GET", url, headers=headers)
 
-working_tree_dir = '/Users/louiseparry/Desktop/autoJoke.dadJokes'
+working_tree_dir = '/Users/louiseparry/Desktop/autoJoke/dadJokes'
 file = "./jokes.txt"
 
 # joke="{\nsetup: {setup}\npunchline: {punchline}\n}\n".format(setup=response.text.setup, punchline=response.text.punchline)
