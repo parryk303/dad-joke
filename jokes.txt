@@ -172,3 +172,4 @@
 {"message":"You have exceeded the DAILY quota for Random Jokes on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/KegenGuyll\/api\/dad-jokes"},
 {"message":"You have exceeded the DAILY quota for Random Jokes on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/KegenGuyll\/api\/dad-jokes"},
 {"message":"You have exceeded the DAILY quota for Random Jokes on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/KegenGuyll\/api\/dad-jokes"},
+{"message":"You have exceeded the DAILY quota for Random Jokes on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/KegenGuyll\/api\/dad-jokes"},
