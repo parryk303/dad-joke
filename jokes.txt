@@ -1,1 +1,2 @@
 {"success":true,"body":[{"_id":"60dd371fb3aa38bd4745e4e3","setup":"I found a parking lot with only two spaces","punchline":"It’s really a parking little.","type":"park","likes":[],"author":{"name":"unknown","id":null},"approved":true,"date":1618108661,"NSFW":false}]},
+{"message":"You have exceeded the DAILY quota for Random Jokes on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/KegenGuyll\/api\/dad-jokes"},
