@@ -1,3 +1,3 @@
 {"success":true,"body":[{"_id":"60dd371fb3aa38bd4745e4e3","setup":"I found a parking lot with only two spaces","punchline":"It’s really a parking little.","type":"park","likes":[],"author":{"name":"unknown","id":null},"approved":true,"date":1618108661,"NSFW":false}]},
-{"message":"You have exceeded the DAILY quota for Random Jokes on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/KegenGuyll\/api\/dad-jokes"},
 {"success":true,"body":[{"_id":"60dd362b4bdd296c3f3371ac","setup":"What do you call someone who cosplays as Jesus?","punchline":"A cross-dresser","type":"dresser","likes":[],"author":{"name":"unknown","id":null},"approved":true,"date":1618108661,"NSFW":false}]},
+{"success":true,"body":[{"_id":"5f80ccd641785ba7c7d27c0f","type":"general","setup":"What do you call a cow with no legs?","punchline":"Ground beef.","likes":[],"author":{"name":"guyllk","id":"60721d2bdc2ce6d0dfd18888"},"date":1618108661,"approved":true,"NSFW":false}]},
