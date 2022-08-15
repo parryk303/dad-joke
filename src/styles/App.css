@@ -1,0 +1,191 @@
+body {
+  overflow-x: hidden;
+}
+
+#contain {
+  margin-top: 24px;
+}
+
+#navButton {
+  margin-top: 14px;
+  margin-right: -5px;
+  border-radius: 9px;
+  size: 50px;
+ }
+
+ #navButton:hover {
+  color: #ff7b09;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#adminButton {
+  height: 50px;
+  width: 50px;
+  border-radius: 9px;
+  size: 50px;
+  color:#49089e;
+ }
+
+ #adminButton:hover {
+  color: #ff7b09;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#profile {
+  margin-left: 25%;
+  border-radius: 50%;
+}
+
+#profile:hover {
+  border: thick;
+  color: #ff7b09;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.dropzone {
+  text-align: center;
+  padding: 25%;
+  border: 3px dashed #eeeeee;
+  border-radius: 35px;
+  background-color: #fafafa;
+  color: #49089e;
+  cursor: pointer;
+  margin-bottom: 8%;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.dropzoneDark {
+  text-align: center;
+  padding: 25%;
+  border: 3px dashed #eeeeee;
+  border-radius: 35px;
+  background-color: #888888;
+  color: #49089e;
+  cursor: pointer;
+  margin-bottom: 8%;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  box-shadow: #eeeeee 0px 5px 15px 0px;
+}
+
+/* #uploadButton {
+  color: #ff7b09;
+} */
+
+#uploadButtonDark {
+  color: white;
+}
+
+#input {
+}
+
+#inputDark {
+  color: #ff7b09;
+}
+
+.selected-file-wrapper {
+  text-align: center;
+}
+
+.selected-file {
+  color: #ff7b09;
+  cursor: pointer;
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+
+#script {
+  color: #8a2be2;
+}
+
+#nav {
+  background-color: #F8F9FA;
+  background-image: url('https://www.transparenttextures.com/patterns/fabric-of-squares.png');
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#navDark {
+  background-color: #888888;
+  background-image: url('https://www.transparenttextures.com/patterns/fabric-of-squares.png');
+  box-shadow: #eeeeee 0px 5px 15px 0px;
+}
+
+#alert {
+  font-size: large;
+  margin-bottom: 2%;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+#links {
+  margin-left: 25%;
+}
+
+/* DARK MODE */
+
+@media only screen and (max-width: 490px) {
+  #tool {
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #navButton {
+    margin-top: -10px;
+  }
+
+  .dropzone {
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 80%;
+    text-align: center;
+    padding: 25%;
+    border: 3px dashed #eeeeee;
+    border-radius: 35px;
+    background-color: #fafafa;
+    color: #49089e;
+    cursor: pointer;
+    margin-bottom: 8%;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+
+  .dropzoneDark {
+    margin-top: 5%;
+    margin-left: 4%;
+    text-align: center;
+    width: 80%;
+    padding: 25%;
+    border: 3px dashed #eeeeee;
+    border-radius: 35px;
+    background-color: #888888;
+    color: #49089e;
+    cursor: pointer;
+    margin-bottom: 8%;
+
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    box-shadow: #eeeeee 0px 5px 15px 0px;
+  }
+
+  #input {
+    margin-left: 4%;
+    display: grid;
+
+  }
+
+  #download {
+    margin-left: 25%;
+  }
+
+  #link {
+    width: 100px;
+    margin-left: 8%;
+  }
+
+}
