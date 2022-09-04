@@ -1,4 +1,13 @@
+from IPython.display import display, HTML
 import requests
+from pandas import *
+import pandas as pd
+from pathlib import Path
+import numpy as np
+
+import json
+
+df = pd.read_json('test.json')
 
 url = "https://dad-jokes.p.rapidapi.com/random/joke"
 
@@ -9,13 +18,14 @@ headers = {
 
 response = requests.request("GET", url, headers=headers)
 
-working_tree_dir='/Users/kyle/Desktop/autoJoke'
-file = "./jokes.txt"
+# df = pd.DataFrame(df)
 
-joke="{res},\n".format(res=response.text)
+df.loc[len(df.index)] = response.text
 
-def alterFile(file):
-    with open(file, "a") as f:
-        f.write(joke)
+result = df.to_json(orient = 'records')
 
-alterFile(file)
+with open("test.json", "w") as write_file:
+    json.dump(result, write_file)
+print("Done writing JSON data into .json file")
+
+display(result)
