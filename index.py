@@ -7,7 +7,7 @@ import numpy as np
 
 import json
 
-df = pd.read_json('test.json')
+df = pd.read_json('jokeDB.json')
 
 url = "https://dad-jokes.p.rapidapi.com/random/joke"
 
@@ -17,8 +17,6 @@ headers = {
 }
 
 response = requests.request("GET", url, headers=headers)
-
-# df = pd.DataFrame(df)
 
 df.loc[len(df.index)] = response.text
 
