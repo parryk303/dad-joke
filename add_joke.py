@@ -17,10 +17,10 @@ dad_joke = {"setup": setup, "punchline": punchline}
 
 dj = json.dumps(dad_joke)
 
-f = open("jokes.json")
+f = open("../public/jokes.json")
 jokes = json.loads(json.dumps(json.load(f)))
 jokes.append(dj)
 
-with open("jokes.json", "w") as write_file:
+with open("../public/jokes.json", "w") as write_file:
     json.dump(jokes, write_file)
 print("Done writing JSON data into jokes")
