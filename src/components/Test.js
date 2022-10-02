@@ -1,7 +1,7 @@
 import React from 'react';
 import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
 import Data from '../jokes.json';
-import { useState } from 'react';
+import ReactPDF from '@react-pdf/renderer';
 
 // Create styles
 const styles = StyleSheet.create({
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
 
 // Create Document Component
 export default function Test() {
-  const [jokes, setJokes] = useState(Data.map(joke => JSON.parse(joke)));
+  const jokes = Data.map(joke => JSON.parse(joke));
   return (
     <Document>
       <Page size="A4" style={styles.page}>
@@ -36,3 +36,5 @@ export default function Test() {
     </Document>
   )
 };
+
+ReactPDF.render(<Test />, `../src/example.pdf`);

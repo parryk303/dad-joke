@@ -1,8 +1,6 @@
 import Terminal from 'terminal-in-react';
 import Data from '../jokes.json';
 
-
-
 export default function Interface() {
     const jokes = Data.map(joke => JSON.parse(joke));
     // const showLog = () => test
@@ -47,7 +45,6 @@ export default function Interface() {
                 backgroundColor='black'
                 barColor='black'
                 style={{ fontWeight: 'bold', fontSize: '1.75em', width: '85%' }}
-
                 commands={{
                     joke: showJoke,
                     jokes: showJokes,

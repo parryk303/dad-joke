@@ -13,7 +13,7 @@ import './styles/index.css';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useState } from 'react';
 import Bar from './components/Bar';
-import Test from './components/Test';
+import JokeList from './JokeList';
 import JokeCard from './components/JokeCard';
 import Interface from './components/Interface';
 import Data from './jokes.json';
@@ -57,6 +57,7 @@ const App = () => {
             <Interface />
           }
           <Box sx={{ marginTop: '1%', width: '95vw' }}>
+            <JokeList />
             <Grid container spacing={2}>
               <Grid item xs={12}>
                 <Collapse in={open}>
@@ -75,7 +76,7 @@ const App = () => {
                     }
                     sx={{ mb: 2 }}
                   >
-                    <Test />
+
                   </Alert>
                 </Collapse>
               </Grid>
