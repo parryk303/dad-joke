@@ -24,3 +24,5 @@ jokes.append(dj)
 with open("../src/jokes.json", "w") as write_file:
     json.dump(jokes, write_file)
 print("Done writing JSON data into jokes")
+
+print('hello!')
