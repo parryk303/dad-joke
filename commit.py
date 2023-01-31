@@ -2,7 +2,7 @@ import git
 import datetime
 
 # specify the repository
-repo = git.Repo("./")
+repo = git.Repo("https://github.com/parryk303/dad-joke.git")
 
 # add and commit changes
 today = datetime.datetime.now().strftime("%Y-%m-%d")
