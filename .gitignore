@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# scripts
+add_joke.py
+commit.py
+
 # testing
 /coverage
 
