@@ -58,7 +58,7 @@ const App = () => {
           }
           <Box sx={{ marginTop: '1%', width: '95vw' }}>
             <Grid container spacing={2}>
-              <Grid item xs={12}>
+              {/* <Grid item xs={12}>
                 <Collapse in={open}>
                   <Alert id='alert' severity='info'
                     action={
@@ -78,7 +78,7 @@ const App = () => {
                     <Test />
                   </Alert>
                 </Collapse>
-              </Grid>
+              </Grid> */}
 
               {jokes.map((joke, i) => (
                 <Grid key={i} item lg={3} md={4} sm={6} xs={12} sx={{ height: '100%' }}>
