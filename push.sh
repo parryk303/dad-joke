@@ -4,7 +4,7 @@
 date=$(date '+%Y-%m-%d')
 message="Daily Joke for ${date}"
 
-cd /Users/kyle/Desktop/dad-joke
+cd /Users/kyle/Desktop/Personal/dad-joke
 
 git add .
 git commit -m "${message}"
