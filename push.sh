@@ -9,4 +9,3 @@ cd /Users/kyle/Desktop/Personal/dad-joke
 git add .
 git commit -m "${message}"
 git push origin main
-say 'Hey Kyle I am updating jokes'
